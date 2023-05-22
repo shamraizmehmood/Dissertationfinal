@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  background-image: url(../../../public/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.page-body {
+  height: 100vh;
+  padding: 50px;
+}
+
+.heading {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  background-color: darkolivegreen;
+  border-radius: 25px;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.page-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  cursor: 'pointer';
+  padding: 70px;
+}
+
+.image-div {
+  background-image: url(../../../public/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 50px;
+}
+.image-div::before{
+  content: '';
+  position: absolute;
+  left:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 50px;
+  background-color: rgba(0,0,0,0.716);
+}
+.para {
+  position: relative;
+  color: white;
+}
+.select {
+  border: none;
+  padding: 15px 0 15px 0;
+}
+.select-heading {
+  border-color: white;
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    color: wheat;
+    background: darkolivegreen;
+}
+.post-button {
+  background-color: yellowgreen;
+  color: black;
+  border: none;
+  padding: 5px;
+  border: 4px double #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.modal {
+  color: #704f4f;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 8px;
+  max-width: 500px;
+  padding: 2rem;
+  width: 750px;
+  height: 250px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  line-height: 0;
+
+}
+.modal button{
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 20px;
+}
+
+
+.p1 {
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2%;
+  
+}
+
+.p2 {
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2%;
+}
+
+#title {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
+ 
+}
